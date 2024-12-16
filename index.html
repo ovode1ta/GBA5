@@ -11,17 +11,22 @@
 
 <body>
     <h1>Gameboy Advance Emulator</h1>
-    <h2>Select a game:</h2>
-    <ul id="buttons">
-        <button id="star" onclick="document.location='./launcher.html#pokemonemerald'" style="background-color: green;">Pokemon Emerald</a>
-        <button id="star" onclick="document.location='./launcher.html#pokemonek'" style="background-color: green">Pokemon Emerald (Kaizo Mod)</a>
-        <button id="star" onclick="document.location='./launcher.html#eprp'" style="background-color: green">Pokemon Emerald (Party Randomizer Plus Mod)</a>
-        <button id="star" onclick="document.location='./launcher.html#pokemonlp'"style="background-color: silver; color: #222222">Pokemon Light Platinum (Ruby Mod)</a>
-        <button id="star" onclick="document.location='./launcher.html#pokemonruby'"style="background-color: red">Pokemon Ruby</a>
-        <button id="star" onclick="document.location='./launcher.html#pokemonsapphire'"style="background-color: blue">Pokemon Sapphire</a></button>
-        <br><br>
 
-        <button onclick="document.location='./launcher.html#advancewars'">Advance Wars</a>
+    <h2>Select a game:</h2>
+
+    <ul id="buttons">
+        <div> 
+            <button id="green" onclick="document.location='./launcher.html#pokemonemerald'">Pokemon Emerald</a>
+        </div>
+
+        <button id="green" onclick="document.location='./launcher.html#pokemonek'">Pokemon Emerald (Kaizo Mod)</a>
+        <button id="green" onclick="document.location='./launcher.html#eprp'">Pokemon Emerald (Party Randomizer Plus Mod)</a>
+        <button id="silver" onclick="document.location='./launcher.html#pokemonlp'">Pokemon Light Platinum (Ruby Mod)</a>
+        <button id="red" onclick="document.location='./launcher.html#pokemonruby'">Pokemon Ruby</a>
+        <button id="blue" onclick="document.location='./launcher.html#pokemonsapphire'">Pokemon Sapphire</a></button>
+            <br><br>
+
+            <button onclick="document.location='./launcher.html#advancewars'">Advance Wars</a>
         <button onclick="document.location='./launcher.html#advancewars2'">Advance Wars 2</a>
         <button onclick="document.location='./launcher.html#aladdin'">Aladdin</a>
         <button onclick="document.location='./launcher.html#alienhominid'">Alien Hominid</a>
@@ -180,6 +185,37 @@
     #buttons {
         margin-left: 25%;
         margin-right: 25%;
+    }
+    
+    #green {
+        background-color: green;
+    }
+    
+    #green:hover {
+        background-color: #6ac953;
+    }
+    
+    #red {
+        background-color: red;
+    }
+    
+    #red:hover {
+        background-color: #ff9696;
+    }
+    #blue {
+        background-color: darkblue;
+    }
+    
+    #blue:hover {
+        background-color: #656dc9;
+    }
+    #silver {
+        background-color: #d1d1d1;
+        color: #222222;
+    }
+    
+    #silver:hover {
+        background-color: white;
     }
     
 
