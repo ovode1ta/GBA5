@@ -13,6 +13,14 @@
     <h1>Gameboy Advance Emulator</h1>
     <h2>Select a game:</h2>
     <ul id="buttons">
+        <button id="star" onclick="document.location='./launcher.html#pokemonemerald'" style="background-color: green;">Pokemon Emerald</a>
+        <button id="star" onclick="document.location='./launcher.html#pokemonek'" style="background-color: green">Pokemon Emerald (Kaizo Mod)</a>
+        <button id="star" onclick="document.location='./launcher.html#eprp'" style="background-color: green">Pokemon Emerald (Party Randomizer Plus Mod)</a>
+        <button id="star" onclick="document.location='./launcher.html#pokemonlp'"style="background-color: silver">Pokemon Light Platinum (Ruby Mod)</a>
+        <button id="star" onclick="document.location='./launcher.html#pokemonruby'"style="background-color: red">Pokemon Ruby</a>
+        <button id="star" onclick="document.location='./launcher.html#pokemonsapphire'"style="background-color: blue">Pokemon Sapphire</a></button>
+        <br><br>
+
         <button onclick="document.location='./launcher.html#advancewars'">Advance Wars</a>
         <button onclick="document.location='./launcher.html#advancewars2'">Advance Wars 2</a>
         <button onclick="document.location='./launcher.html#aladdin'">Aladdin</a>
@@ -89,15 +97,7 @@
         <button onclick="document.location='./launcher.html#onepiece'">One Piece</a>
         <button onclick="document.location='./launcher.html#pacman_world'">Pacman World</a>
         <button onclick="document.location='./launcher.html#pacman_world2'">Pacman World 2</a>
-        <button onclick="document.location='./launcher.html#pokemonemerald'">Pokemon Emerald</a>
-        <button onclick="document.location='./launcher.html#pokemonek'">Pokemon Emerald (Kaizo Mod)</a>
-        <button onclick="document.location='./launcher.html#eprp'">Pokemon Emerald (Party Randomizer Plus Mod)</a>
-        <button onclick="document.location='./launcher.html#pokemongreen'">Pokemon Leaf Green</a>
-        <button onclick="document.location='./launcher.html#pokemonred'">Pokemon Fire Red</a>
-        <button onclick="document.location='./launcher.html#pokemonlp'">Pokemon Light Platinum (Ruby Mod)</a>
         <button onclick="document.location='./launcher.html#mysteryred'">Pokemon Mystery Dungeon Red</a>
-        <button onclick="document.location='./launcher.html#pokemonruby'">Pokemon Ruby</a>
-        <button onclick="document.location='./launcher.html#pokemonsapphire'">Pokemon Sapphire</a>
         <button onclick="document.location='./launcher.html#pprs'">Pokemon Pinball - Ruby & Sapphire</a>
         <button onclick="document.location='./launcher.html#gba_video_pokemon_1'">Pokemon Video Show Pak 1</a>
         <button onclick="document.location='./launcher.html#gba_video_pokemon_2'">Pokemon Video Show Pak 2</a>
@@ -157,6 +157,7 @@
         font-family: 'Inter';
         text-align: center;
         line-height: 2;
+        font-size: 20px;
     }
     
     button {
@@ -165,20 +166,22 @@
         padding: 7px;
         border: 0px;
         border-radius: 5px;
-        transition: 0.4s;
+        transition: 0.6s;
         border: none;
-        margin: 10px;
+        margin: 5px;
+        cursor: pointer;
     }
     
     button:hover {
-        background-color: #666666;
-        transition: 0.1s;
+        background-color: #888888;
+        transition: 100ms;
     }
     
     #buttons {
         margin-left: 25%;
         margin-right: 25%;
     }
+    
 
 </style>
 
